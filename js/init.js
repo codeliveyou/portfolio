@@ -3,46 +3,28 @@ let data = {
     universities: [
         {
             during: "2014-2018",
-            name: "ITS – Visoka škola strukovnih studija za informacione tehnologije",
-            job: "Information Technology"
+            name: "Texas Tech University",
+            job: "Computer Science"
         },
     ],
     experiences: [
         {
-            during: "November 2020 - Present",
-            job: "Lead WebGL Graphics Engineer ",
-            where: "Excellarate",
-            des: "Creating and Implementing stunning WebGL Graphics Visualization for one of the world's largest providers of products and services to the energy industry.",
+            during: "Jan 2021 - Dec 2024",
+            job: "Senior Machine Learning Engineer",
+            where: "Nike",
+            des: "Led the development of advanced AI-driven solutions for an innovative AI writing assistant designed for novelists and storytellers. (Sudowrite)\nDeveloped cutting-edge machine learning solutions to power a virtual dressing room for an immersive e-commerce shopping experience. (Veesual)",
         },
         {
-            during: "July 2020 - July 2021",
-            job: "Senior WebGL Developer",
-            where: "Verdiseno, Inc.",
-            des: "This role involves implementing new capabilities to the front end of a WebGL-based graphical design tool and increasing test coverage using Three.js, React.js, Mobx, and Storybook. Lyra Solar and Solar Design Tool",
+            during: "Oct 2018 - Jan 2021",
+            job: "Machine Learning Engineer",
+            where: "Vistendo",
+            des: "Abnormality Detection System in Soldiers  - Developed an emotion and neurological anomaly detection system for real-time monitoring of military personnel.\nAI-Powered Sleep Stage Analyzer - Developed a military-grade AI system for monitoring sleep stages and identifying sleep disorders in soldiers.",
         },
         {
-            during: "January 2020 - January 2021",
-            job: "Unity Game Developer ",
-            where: "Terahard Ltd.",
-            des: "Worked on a world class upcoming fighter game in Unity3D using DOTS and ECS Jobs system. https://store.steampowered.com/app/417130/Era/",
-        },
-        {
-            during: "July 2019 - December 2019",
-            job: "Graphics Engineer",
-            where: "Homevista Decor and Furnishings Pvt. Ltd",
-            des: "Worked on a 3D virtual interior design platform for the browser using WebGL and ThreeJS. http://spacecraft.homelane.com",
-        },
-        {
-            during: "May 2018 - April 2019",
-            job: "WebGL Developer",
-            where: "Inmagine Innovation Sdn. Bhd.",
-            des: "Worked on world class image editing WebGL Projects and WebGL Games http://www.pixlr.com/x/ | http://www.pixlr.com/e/",
-        },
-        {
-            during: "July 2014 - April 2018",
-            job: "Game Developer",
-            where: "Logic Simplified",
-            des: "Game Development in Unity3D, ImpactJS, JavaScript-WebGL, Node.JS, Socket.IO for Multiple Mobile and Desktop Devices. The job responsibility in this company includes development of 2D and 3D games in Unity3D-C# after the assets are provided by the design team. I have also developed games for web browsers here using Three.JS, ImpactJS and Phaser libraries..",
+            during: "Mar 2015 - Sep 2018",
+            job: "Machine Learning Engineer",
+            where: "Ensign Services",
+            des: "Generative Code Completion - Developed an AI-powered code completion tool to augment the productivity of developers by predicting and suggesting code snippets.",
         }
     ],
 
@@ -99,8 +81,8 @@ function myFunction() {
 
 window.onAudioMute = () => {
     const audio = document.getElementById("myAudio");
-    
-    if(audio.volume == 0.3) {
+
+    if (audio.volume == 0.3) {
         document.getElementById("audioPart").setAttribute("class", "menu-icon lnr lnr-volume-high");
         audio.pause();
         audio.volume = 0;
@@ -109,8 +91,8 @@ window.onAudioMute = () => {
         audio.play();
         audio.volume = 0.3;
     }
-    
-    
+
+
 }
 
 window.onclick = () => {
